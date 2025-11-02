@@ -1,0 +1,73 @@
+.skills {
+  background-color: #ffffff;
+  padding: 8em 4em;
+}
+.content h2 {
+    opacity: .4;
+    font-size: .7rem;
+    letter-spacing: 5px;
+}
+.content > h3 {
+    font-family: "playfair display", serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}   
+.content p {
+    line-height: 2;
+    font-size: .9rem;
+}
+.progress{
+    max-height: 6px;
+    border-radius: 20px !important;
+    overflow: visible !important;
+}
+.progress-bar{
+    position: relative;
+    overflow: visible !important;
+    border-radius: 20px !important;
+}
+.progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: inherit;
+    border-radius: 50%;
+}
+.progress-bar::before{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    color: inherit;
+    font-weight: 900;
+    border-radius: 50%;
+}
+.pro1::before{
+    color: var(--bs-primary);
+    content: "75%";
+}
+.pro2::before{
+    color: var(--bs-danger);
+    content: "60%";
+}
+.pro3::before{
+    color: var(--bs-warning);
+    content: "85%";
+}
+.pro4{
+    background-color: #a84cb8!important;
+}
+.pro4::before{
+    color:#a84cb8;
+    content: "90%";
+}
+.pro5::before{
+    color: var(--bs-success);
+    content: "60%";
+}
+.pro6::before{
+    color:var(--bs-info);
+    content:'80%';
+}

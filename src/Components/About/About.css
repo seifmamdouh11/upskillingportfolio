@@ -1,0 +1,38 @@
+.about {
+  background-color: #ffffff;
+  padding: 8em 4em;
+}
+.content h2 {
+    opacity: .4;
+    font-size: .7rem;
+    letter-spacing: 5px;
+}
+.content > h3 {
+    font-family: "playfair display", serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}   
+.content p {
+    line-height: 2;
+    font-size: .9rem;
+}
+.card{
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.card1{
+    border-bottom: 3px solid #0d6efd !important;
+}
+.card2{
+    border-bottom: 3px solid #dc3545 !important;
+}
+.card3{
+    border-bottom: 3px solid #ffc107 !important;
+}
+.card4{
+    border-bottom: 3px solid #a84cb8 !important;
+}
+.card4 i{
+    color: #a84cb8;
+}
